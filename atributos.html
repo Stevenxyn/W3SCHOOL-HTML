@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Los atributos en HTML</h1>
+    <p>Los atributos proporcionan informacion adiccional sobre elementos HTML</p>
+
+    <p>Todos los elementos HTML pueden tener atributos</p>
+    <p> Los atributos proporcionan <b>informacion adiccional</b> sobre los elementos</p>
+    <p>Los atributos siempre se especifican en la <b>etiqueta de inicio</b></p>
+    <p>Los atributos generalmente vienen en pares de nombre/valor como
+        <b>nombre ="valor"</b>
+    </p>
+
+    <hr>
+
+    <h2>Atributo href</h2>
+    <p>la etiqueta <b>a</b> define un hipervinculo. El href atributo especifica la URL de la pagina a la que va el enlace</p>
+    <a href="/W3school.html">Ir a W3school.html</a>
+
+    <hr>
+
+    <h2>Atributo src  source</h2>
+    <p>La etiqueta img se utiliza para incrustar imagenes en una pagina web HTML, el src es el atributo que especifica la ruta de la imagen a mostrar</p>
+
+    <hr>
+
+    <h2>URL absoluta</h2>
+    <p>Enlace a una imagen externa alojada en algun sitio web cualquiera 
+        <b>Ejemplo: </b> src="www.google/imagen.com" se recomienda no usar estas imagenes por derechos de autor o en un futuro se pueden cambiar por cualquier imagen </p>
+
+        <hr>
+
+    <h2>URL Relativo</h2>
+    <p>Aquí no buscamos un url absoluto de algun dominio, sino empezamos con / para buscar dentro de nuestros archivos
+        <b>Ejemplo: </b> src="/fotos/imagen1.jpg"
+        Se recomienda usar URL relativas. estas no se romperan si cambias de dominio
+    </p>
+
+    <hr>
+
+    <h2>Atributos width y height  ancho y alto</h2>
+    <p>Estos atributos especifican el ancho y alto de una imagen</p>
+    <img src="/img/porsche718.webp" width="500" height="300">
+
+    <h5>Imagen con alt</h5>
+    <img src="/img/macandad.jpeg" alt="Imagen Macan">
+
+    <hr>
+
+    <h2>El atributo style</h2>
+    <p>Permite agregar estilos a etiquetas que elijamos, no se recomienda mucho ya que se vuelve desordenado</p>
+    <p style="color: red;">Este es un texto con CSS desde la etiqueta </p>
+
+    <hr>
+
+    <h2>El atributo lang</h2>
+    <p>Siempre hay que incluir <b>lang</b> para declarar el idioma de la pagina esto para ayudar a los motores de busqueda y navegadores</p>
+
+    <p>Los codigos del pais se escriben dentro de <b>lang</b> los dos primeros caracteres definen el idioma de la pagina y los dos ultimos caracteres del pais por ejemplo el que se puso en esta pagina HTML</p>
+
+    <p style="color: red;"> html lang="es-CO"</p>
+
+    <hr>
+
+    <h2>El atributo de titulo</h2>
+    <p>Define alguna informacion adicional sobre un elemento</p>
+    <p>Se mostrara como informacion de herramientas cuando se pase el mouse sobre el elemento</p>
+
+    <p title="Este es un ejemplo">Este es un ejemplo de title tooltip pasa el mouse por encima <b>AQUI</b></p>
+
+    <hr>
+
+    <h2>Tips</h2>
+    <p>para los atributos se recomienda ponerlos entre comillas "" en ocaciones funciona sin ellas pero lo recomendado es entre comillas "" si se pueden usar otras comillas como estas '' y si ya hay "" dentro de las comillas se recomienda 'Este "amigo" es bueno'</p>
+</body>
+</html>
