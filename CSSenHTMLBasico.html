@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--
+            Esta estiqueta funciona para que lea caracteres diferentes como ñ y tildes
+        -->
+        <meta charset="UTF-8">
+        <!--
+            estas dos etiquetas funcionan para el responsive desing
+            mas simple y para que el mas complejo funcione tambine
+        -->
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Basico en el HTML</title>
+
+        <!--CSS-->
+        <link rel="stylesheet" href="/styles/CSSenHTML.css">
+    </head>
+
+    <body>
+        
+        <h1>Formas de aplicar CSS en HTML existen 3 formas</h1>
+
+        <h2>En linea</h2>
+        <p>Es cuando aplicamos  CSS como atributos dentro de las etiquetas en HTML</p>
+        <p style="color: red; background-color: aqua;border: 1px solid blue;">Este es  ejemplo de aplicar estilos en linea con CSS</p>
+
+        <hr>
+
+        <h2>Interno</h2>
+        <p>Es cuando aplicamos CSS de forma interna con la etiqueta style en el html</p>
+        <style>
+            .formaInterna{
+                background-color: blue;
+                color: aliceblue;
+            }
+        </style>
+        <p class="formaInterna"> Este es un ejemplo de aplicar estilos CSS de forma interna </p>
+
+
+        <hr>
+        <h2>Externa</h2>
+        <p>Para esto debemos crear un .cc en y agregar la conexion en el head del html donde queremos conectar la hoja de estilos con el html, ya solo queda invocar lo que queremos aplicar estilos con clases, identificadores o llamadas por etiquetas </p>
+
+        <p class="aplicar-CSS-externo">Ejemplo de aplicar estilos por externo en HTML</p>
+
+
+    </body>
+</html>
