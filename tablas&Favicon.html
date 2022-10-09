@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas HTML</title>
+
+    <!--Favicon-->
+    <link rel="icon" href="./img/faviconHTML.png">
+</head>
+
+<body>
+    <h1>Tablas en HTML y Favicon</h1>
+
+    <ul>
+        <li><b>table: </b>Encapsula toda la tabla</li>
+        <li><b>td: </b>Significa datos de la tabla</li>
+        <li><b>th: </b>Significa encabezado de la tabla</li>
+        <li><b>tr: </b>Encapsula cada td y th</li>
+    </ul>
+
+
+    <style>
+        table {
+            /*Que las cajas se unan no haya espacios*/
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            text-align: left;
+            border: 1px solid #dddddd;
+            padding: 10px;
+        }
+        th{
+            background-color: rgb(124, 165, 241);
+        }
+        tr:nth-last-child(odd){
+            background-color: #dddddd;
+        }
+    </style>
+
+
+    <table>
+        <!--Columnas-->
+        <caption>Tabla de bandas favoritas</caption>
+
+        <tr>
+            <th>Nombre Banda</th>
+            <th>Genero Banda</th>
+            <th>Activa</th>
+            <th>Total albunes</th>
+        </tr>
+
+        <!--Valores pintados por orden dependiendo de columnas-->
+        <tr>
+            <td>Rammstein</td>
+            <td>Metal industrial</td>
+            <td>Si</td>
+            <td>5 Albunes</td>
+        </tr>
+        <tr>
+            <td>Slipknot</td>
+            <td>Metal</td>
+            <td>Si</td>
+            <td>10 Albunes</td>
+        </tr>
+        <tr>
+            <td>Cas</td>
+            <td>Indie</td>
+            <td>Si</td>
+            <td>3 Albunes</td>
+        </tr>
+        <tr>
+            <td>Slayer</td>
+            <td>Metal Trash</td>
+            <td>Si</td>
+            <td>8 Albunes</td>
+        </tr>
+        <tr>
+            <td>Megadeth</td>
+            <td>Metal industrial</td>
+            <td>Si</td>
+            <td>3 Albunes</td>
+        </tr>
+    </table>
+
+
+
+</body>
+
+</html>
